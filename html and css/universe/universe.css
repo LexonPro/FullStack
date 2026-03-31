@@ -1,0 +1,22 @@
+body{
+    color: white;
+    
+    background-size: auto;
+    
+    text-align: center;
+
+}
+
+.btn{
+    font-family: 'Orbitron' , sans-serif;
+}
+
+.exp{
+    border-bottom: 2px solid white;
+}
+
+#hero{
+  background-image: url("giphy.gif");
+  background-size: cover;
+  padding: 60px 0 160px 0;
+}
