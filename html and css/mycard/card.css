@@ -1,0 +1,25 @@
+.box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    border: 2px solid black;
+    padding: 15px;
+    width: 500px;
+    margin: 20px auto;
+
+    background-color: rgb(108, 231, 231);
+    border-radius: 10px;
+    border-bottom: 6px solid red
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    
+}
+
+.data {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
