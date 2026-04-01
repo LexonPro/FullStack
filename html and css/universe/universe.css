@@ -1,5 +1,5 @@
 body{
-    color: white;
+    color: rgb(76, 107, 168);
     
     background-size: auto;
     
@@ -19,4 +19,9 @@ body{
   background-image: url("giphy.gif");
   background-size: cover;
   padding: 60px 0 160px 0;
+}
+
+h3{
+    color: rgb(41, 100, 167);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
