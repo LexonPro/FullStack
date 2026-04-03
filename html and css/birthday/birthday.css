@@ -1,0 +1,82 @@
+
+body{
+    font-family: cursive;
+    color: white;
+    background:linear-gradient(#a2daff,#EFB0C9);
+}
+
+
+#photo{
+
+    height: 180px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+}
+
+h1,h2,h3,h4{
+    text-shadow: 0 0 1px black;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date{
+     background: #EFB0C9;
+     padding: 5px 10px;
+     border-radius: 5px;
+}
+
+.age{
+    margin-top: 30px;
+     background: #EFB0C9;
+     padding: 5px 10px;
+     border-radius: 5px;
+}
+
+.gift{
+    text-align: center;
+}
+
+#gift {
+    border: solid 8px white;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    background-image: url("gift.avif");
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+#gift:hover {
+    background-image: url("gift1.webp");
+    cursor: pointer;
+}
+
+#gift-hot{
+    border: solid 8px white;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    background-image: url("gift.avif");
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+#gift-hot:hover {
+    background-image: url("hot.webp");
+    cursor: pointer;
+}
