@@ -58,7 +58,7 @@ h1,h2,h3,h4{
 
 #gift:hover {
     background-image: url("gift1.webp");
-    cursor: pointer;
+    cursor:pointer;
 }
 
 #gift-hot{
