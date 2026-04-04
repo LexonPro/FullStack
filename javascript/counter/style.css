@@ -1,0 +1,49 @@
+.main{
+    
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    background: linear-gradient(skyblue,pink);
+     display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+
+body{
+     display: block;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+#inc-btn{
+    height: 30px;
+    width: 150px;
+    margin-bottom: 10px;
+    background-color: green;
+    border-radius: 30px;
+    border-color: aliceblue;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+
+#save{
+    height: 30px;
+    width: 150px;
+    background-color: red;
+    border-radius: 30px;
+    border-color: aliceblue;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p,h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
