@@ -19,13 +19,17 @@ body {
 
   background: white;
   border-radius: 10px;
+
+  background: linear-gradient(pink,skyblue);
 }
 
 
 #num1, #num2 {
   height: 30px;
-  width: 80%;
-  text-align: center;
+  width: 60px;
+  margin-left: 5px;
+  margin-right: 5px;
+ 
 }
 
 
@@ -54,5 +58,10 @@ button:hover {
 #result {
   margin-top: 10px;
   font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
 }
+
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
 }
